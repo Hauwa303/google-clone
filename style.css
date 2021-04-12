@@ -1,0 +1,99 @@
+body.p{
+   margin: 0;
+   padding: 0;
+}
+nav {
+ display: flex;
+ justify-content:space-around ;
+ width:20%;
+ margin-left: auto;
+ padding: 2em;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+ text-decoration:underline;
+}
+ nav img{
+    height: 20px;
+ }
+
+ main {
+   width: 50%;
+   margin:7em auto;
+   text-align:center;
+
+ }
+ 
+
+ input{
+     width: 100%;
+     padding-top :1em;
+     border-radius:30px;
+     border:1px solid gray; 
+ }
+  #icon{  
+   background-image:url("magnifying glass.png");
+
+
+   padding-left: 30px;
+   padding-bottom:2px ;
+   background-repeat: no-repeat;
+ }
+ .icon2{
+   background-image:url("microphone.png");
+   position: relative;
+   left: 20px;
+   padding-right: 30px;
+   background-repeat: no-repeat;
+ }
+ 
+ .btns_container{
+     margin-top:1em ;
+ }
+
+ .btns_container button{
+  padding:1em;
+  border: none;
+  background-color: whitesmoke;
+ }
+
+ main a{
+   color: blue;
+   margin-top: 3em;
+   padding-top: 1em;
+}
+ main span{
+    color: black;
+ }
+ .lan{
+     padding-top:2em ;
+     padding: 1em;
+     justify-content: space-between;
+     text-align: center;
+ }
+ main
+ .footer{
+   background-color:rgb 240,236,236;
+   
+ } 
+ .footer_top{
+    padding:1em;
+
+ }
+ .footer_bottom{
+  padding: 1em;
+  display:flex ;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+ }
+ .left a{
+    margin-right: 1em;
+ }
+  .right a{
+     margin-right: 1em;
+  }
